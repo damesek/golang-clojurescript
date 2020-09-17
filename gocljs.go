@@ -10,6 +10,8 @@ import (
 	"time"
 )
 
+// fasthttp !
+
 func serve(ctx context.Context) (err error) {
 
 	mux := http.NewServeMux()
