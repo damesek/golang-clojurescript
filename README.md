@@ -1,5 +1,10 @@
-# golang-clojurescript
-Gracefully shutdown Clojurescript (basic shadow-cljs project) with Golang
+# Gracefully shutdown Clojurescript with fast Go backend
+TODO add fasthttp package
+
+In this way x5 better performance (with fasthttp x10) vs non-clustered nodejs. 
+I used a shadow-cljs project example and one gracefull shutdown Go example to create that mix.
+
+details:
 
 Based on https://github.com/shadow-cljs/quickstart-browser shadow-cljs basic example. Detailed info about this project you can find on the link.
 
@@ -9,4 +14,4 @@ This basic example show how to shut down gracefully the cljs projects with Go, b
 
 Btw "Go- and Java-based webservers have shown to be the most efficient. Clustered NodeJS is reasonably efficient, but will run out of RAM once overloaded." Source: https://stressgrid.com/blog/webserver_benchmark/
 
-TODO add fasthttp package
+
