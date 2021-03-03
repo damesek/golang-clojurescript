@@ -9,6 +9,8 @@ Clone the repo or just Release RELEASE_X86_64 file and run<BR>
 ```bash
 ./gocljs
 ```
+-> Don't forget add public folder with index.html
+ 
 After this you can see the message: 
 ```bash
 2021/03/03 18:10:11 server started
