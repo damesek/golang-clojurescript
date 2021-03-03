@@ -4,6 +4,20 @@ TODO add fasthttp package
 In this way x5 better performance (with fasthttp x10) vs non-clustered nodejs. 
 I used a *shadow-cljs project example* [https://github.com/shadow-cljs/quickstart-browser] and a *gracefull shutdown Go example* to create that mix.
 
+Clone the repo and run [I use Mac OSX x86_64, if you use Linux/Windows/RPI maybe better if you rebuild]
+```bash
+./gocljs
+```
+After this you can see the message: "[datetime] server started"
+on localhost:8081
+
+When you stop the server with CTRC+C, you will see:
+```bash
+^C2021/03/03 18:11:32 system call:interrupt
+2021/03/03 18:11:32 server stopped
+2021/03/03 18:11:32 server exited properly
+```
+
 Details:
 
 Test with  
