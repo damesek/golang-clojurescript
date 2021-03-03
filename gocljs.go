@@ -37,7 +37,7 @@ func serve(ctx context.Context) (err error) {
 	))
 
 	srv := &http.Server{
-		Addr:    ":6969",
+		Addr:    ":8081",
 		Handler: mux,
 	}
 
