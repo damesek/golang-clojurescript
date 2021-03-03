@@ -8,7 +8,10 @@ Clone the repo and run [I use Mac OSX x86_64, if you use Linux/Windows/RPI maybe
 ```bash
 ./gocljs
 ```
-After this you can see the message: "[datetime] server started"
+After this you can see the message: 
+```bash
+2021/03/03 18:10:11 server started
+```
 on localhost:8081
 
 When you stop the server with CTRC+C, you will see:
