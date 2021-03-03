@@ -4,7 +4,8 @@ TODO add fasthttp package
 In this way x5 better performance (with fasthttp x10) vs non-clustered nodejs. 
 I used a *shadow-cljs project example* [https://github.com/shadow-cljs/quickstart-browser] and a *gracefull shutdown Go example* to create that mix.
 
-Clone the repo and run [I use Mac OSX x86_64, if you use Linux/Windows/RPI maybe better if you rebuild]
+Clone the repo or just Release RELEASE_X86_64 file and run<BR> 
+*I use Mac OSX x86_64, if you use Linux/Windows/RPI maybe better if you rebuild*
 ```bash
 ./gocljs
 ```
